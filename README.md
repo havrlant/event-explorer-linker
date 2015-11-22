@@ -1,1 +1,3 @@
-[Show in Event Explorer](javascript:!function(){function i(i){return-1!==i.indexOf("localhost")||-1!==i.indexOf("adserver.dev")?"local":-1!==i.indexOf("clientui-adserver-staging.bbmedia.intra")?"staging":-1!==i.indexOf("clientui-adserver.ibillboard.com")?"production":void 0}function t(i){return i.match(o)}function n(i){var n=t(i);return n?n[n.length-1]:void 0}function e(t){var e=i(t),r=n(t);return a[e]+r}var r=window.location.href,o=/\w{8}-\w{4}-\w{4}-\w{4}-\w{12}/g,a={local:"http://localhost:9004/#/eventExplorer?limit=100&entityIds=",staging:"http://monitorui-adserver-staging.bbmedia.intra/#/eventExplorer?limit=100&entityIds=",production:"http://monitorui-adserver.ibillboard.com/#/eventExplorer?limit=100&entityIds="},d=e(r);window.open(d,"_blank")}();)
+Bookmarklet pro zobrazení dané entity v Event Exploreru.
+
+[Bookmarklet si stáhněte tady](http://ibb.havrlant.cz/showInEventExplorer/)
