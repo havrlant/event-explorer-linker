@@ -5,7 +5,7 @@
 	var eventExplorerBaseUrls = {
 		local: "http://localhost:9004/#/eventExplorer?limit=100&entityIds=",
 		staging: "http://monitorui-adserver-staging.bbmedia.intra/#/eventExplorer?limit=100&entityIds=",
-		production: "http://monitorui-adserver.ibillboard.com/#/eventExplorer?limit=100&entityIds="	
+		production: "http://monitorui-adserver.billboard.intra/#/eventExplorer?limit=100&entityIds="	
 	};
 	
 	function getEnvironment(url) {
